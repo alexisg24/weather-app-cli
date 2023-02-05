@@ -25,7 +25,7 @@ const questions = [
 const inquirerMenu = async() =>{
     console.clear();
     console.log('==========================='.green);
-    console.log('      Select an option     '.white);
+    console.log('      Weather App CLI      '.white);
     console.log('===========================\n'.green);
 
     const { option } = await inquirer.prompt(questions);
