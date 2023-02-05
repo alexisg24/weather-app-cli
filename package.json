@@ -1,0 +1,18 @@
+{
+  "name": "weather-app-cli",
+  "version": "1.0.0",
+  "description": "Weather App CLI for NodeJS, Searching a City/Location",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["node", "nodejs", "javascript", "weather", "weather-app", "cli"],
+  "author": "Alexis Garcia - GH: @alexisg24",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.0.0"
+  }
+}
